@@ -2,7 +2,7 @@
 
 Cloudflare Worker version of this project using Hono.
 
-This folder is independent from the Node/Express app in `../src`.
+This folder is independent from the Node/Express app in `./server`.
 
 ## Prerequisites
 
@@ -65,9 +65,7 @@ Validation error (`400`) example:
 {
   "message": "Invalid request body",
   "issues": {
-    "preferences": [
-      "Too small: expected string to have >=1 characters"
-    ]
+    "preferences": ["Too small: expected string to have >=1 characters"]
   }
 }
 ```
