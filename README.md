@@ -1,4 +1,4 @@
-# Tea Suggestion
+# Tea Mixer AI Server
 
 API service for AI-assisted Burmese milk tea recipe generation. It converts natural language preferences (sweetness level, astringency, milk texture) into exact milliliter ingredient formulations.
 
